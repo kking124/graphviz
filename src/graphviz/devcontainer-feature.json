@@ -1,0 +1,17 @@
+{
+  "id": "graphviz",
+  "version": "1.0.0",
+  "name": "Graphviz",
+  "documentationURL": "https://github.com/kking124/graphviz",
+  "description": "Installs Graphviz graph visualization software with configurable version",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "latest",
+      "description": "Version of Graphviz to install. Use 'latest' for the most recent version."
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
