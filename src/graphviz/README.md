@@ -37,7 +37,7 @@ Uses the system package manager (apt, yum, apk) to install Graphviz. This is the
 ```json
 {
   "features": {
-    "ghcr.io/kking124/graphviz:latest": {}
+    "ghcr.io/kking124/graphviz/graphviz:latest": {}
   }
 }
 ```
@@ -46,7 +46,7 @@ Uses the system package manager (apt, yum, apk) to install Graphviz. This is the
 ```json
 {
   "features": {
-    "ghcr.io/kking124/graphviz:latest": {
+    "ghcr.io/kking124/graphviz/graphviz:latest": {
       "version": "2.50.0"
     }
   }
@@ -57,7 +57,7 @@ Uses the system package manager (apt, yum, apk) to install Graphviz. This is the
 ```json
 {
   "features": {
-    "ghcr.io/kking124/graphviz:latest": {
+    "ghcr.io/kking124/graphviz/graphviz:latest": {
       "version": "latest"
     }
   }
